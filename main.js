@@ -3,6 +3,10 @@ let orderList = document.querySelector('#orderList')
 let summa = document.querySelector('#summa')
 let itemsCount = document.querySelector('#itemsCount')
 
+
+
+
+
 const createMenu = (product) => {
     return `
     <div class="foodCard" onclick="clickMenu(event)" data-product='${JSON.stringify(product)}'>
